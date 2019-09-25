@@ -1,0 +1,20 @@
+Requisitos – Agendamento de consulta com oftalmologista 
+
+ Visuais: 
+  Com traços minimalistas e pouca informação na tela de início, apenas algumas imagens de divulgação do clínica, 
+as abas se encontrariam no topo da tela separada por categorias sendo uma delas a de agendamento, tendo o programa um 
+formato com cantos arredondados, ao ser selecionada abrira a página de agendamento possuindo as mesmas características
+minimalistas e arredondadas, uma aba seria para realizar o agendamento e outra para cancelar agendamentos já realizados.
+
+ Funcional:
+  Para manter esse programa utilizar-se de um servidor hospedado fornecido por um serviço de hospedagem de sites,
+para assim ser possível o agendamento de forma online, além de ser possível manter o acompanhamento do estado de sua consulta.
+
+ Estrutural:
+  Primeiramente é disponibilizado os médicos e seus horários de atendimento ao programa e a sua secretaria, conforme
+ as consultam vão sendo agendadas pelo programa, a secretaria tem acesso a esses dados e passa os horários e os dias para o medico, 
+ no momento que determinada consulta é agendada o cliente recebera um email de confirmação confirmando o agendamento, ao mesmo tempo
+ aquele horário fica indisponível no programa para agendamento, caso haja desistência da consulta o cliente entrara no programa
+ selecionara a aba de cancelamento de consulta, o sistema consultara se há algum agendamento em seu cadastro e o cliente confirmara
+ o cancelamento do agendamento, em seguida recebera um e-mail confirmando o cancelamento, ao mesmo tempo o horário volta a ficar
+ disponível no programa sendo possível novos agendamentos.  
