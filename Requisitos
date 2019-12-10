@@ -1,20 +1,21 @@
 Requisitos – Agendamento de consulta com oftalmologista 
 
  Visuais: 
-  Com traços minimalistas e pouca informação na tela de início, apenas algumas imagens de divulgação do clínica, 
-as abas se encontrariam no topo da tela separada por categorias sendo uma delas a de agendamento, tendo o programa um 
-formato com cantos arredondados, ao ser selecionada abrira a página de agendamento possuindo as mesmas características
-minimalistas e arredondadas, uma aba seria para realizar o agendamento e outra para cancelar agendamentos já realizados.
+  Com traços minimalistas e pouca informação na tela de início, apenas a tela de login onde será possível entrar com uma conta ou escolher se conectar pela conta do google, 
+Ja a segunda tela também com características minimalistas terá duas opções de seleção sendo elas uma de agendamento e outra de reagendamento/cancelamento,na Terceira tela terá a listas de médicos disponíveis, sua especialidade e em qual local realiza o atendimento,
+, Na quarta tela será disponibilizado os horários que o médico poderá atender e aí selecionar o horário desejado uma quinta tela é aberta mostrando a confirmação do agendamento e caso esteja conectado a conta do Google será automaticamente sincronizado com seu calendário, já na tela de reagendamento/cancelamento temos a seleção entre essas duas opções
+ Ao escolher o cancelamento aparecerá todas as consultas marcadas para selecionar qual deverá ser cancelada e logo em seguida uma tela de confirmação de cancelamento, já a parte de reagendamento ao invés de apenas cancelar terá uma tela para a seleção de um novo horário,,tendo o programa um 
+formato com cantos arredondados.
 
  Funcional:
   Para manter esse programa utilizar-se de um servidor hospedado fornecido por um serviço de hospedagem de sites,
-para assim ser possível o agendamento de forma online, além de ser possível manter o acompanhamento do estado de sua consulta.
+para assim ser possível o agendamento de forma online, além de ser possível manter o acompanhamento do estado de sua consulta, sincronização com a conta do Google para atualização automática do calendário.
 
  Estrutural:
   Primeiramente é disponibilizado os médicos e seus horários de atendimento ao programa e a sua secretaria, conforme
  as consultam vão sendo agendadas pelo programa, a secretaria tem acesso a esses dados e passa os horários e os dias para o medico, 
- no momento que determinada consulta é agendada o cliente recebera um email de confirmação confirmando o agendamento, ao mesmo tempo
+ no momento que determinada consulta é agendada o cliente recebera uma tela  de confirmação confirmando o agendamento, ao mesmo tempo
  aquele horário fica indisponível no programa para agendamento, caso haja desistência da consulta o cliente entrara no programa
  selecionara a aba de cancelamento de consulta, o sistema consultara se há algum agendamento em seu cadastro e o cliente confirmara
- o cancelamento do agendamento, em seguida recebera um e-mail confirmando o cancelamento, ao mesmo tempo o horário volta a ficar
- disponível no programa sendo possível novos agendamentos.  
+ o cancelamento do agendamento, em seguida recebera uma tela confirmando o cancelamento, ao mesmo tempo o horário volta a ficar
+ disponível no programa sendo possível novos agendamentos, tudo isso sendo sincronizado a sua conta Google caso conectada.  
